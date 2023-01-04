@@ -1,0 +1,5 @@
+{
+  "rootDomainScope": true,
+  "crawlDepth": 5,
+  "timeout": 30
+}
