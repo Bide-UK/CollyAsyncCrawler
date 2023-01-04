@@ -127,7 +127,7 @@ func crawl(target string) {
 	
 	//c.SetProxyFunc(randomProxySwitcher)
 	// Limit the number of threads started by colly to two
-	// when visiting links which domains' matches "*httpbin.*" glob
+
 	c.Limit(&colly.LimitRule{
 		Parallelism: 4,
 		RandomDelay: 5 * time.Second,
