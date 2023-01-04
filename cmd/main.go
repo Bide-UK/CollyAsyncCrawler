@@ -182,7 +182,7 @@ func crawl(target string) {
 }
 
 func main() {
-	target := "https://www.target.com"
+	target := "https://www.claris.com"
 	crawl(target)
 
 }
